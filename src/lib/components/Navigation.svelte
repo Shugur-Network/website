@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Menu, X } from 'lucide-svelte';
-	import { base } from '$app/paths';
+	import { base, assets } from '$app/paths';
 	
 	let mobileMenuOpen = false;
 
@@ -13,7 +13,7 @@
 	<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1">
 			<a href="https://shugur.com" class="logo">
-				<img src="{base}/shugur-logo.svg" alt="Shugur" class="logo-img" />
+				<img src="{assets}/shugur-logo.svg" alt="Shugur" class="logo-img" />
 				<div class="logo-text">
 					<span class="logo-main">Shugur</span>
 				</div>
@@ -58,7 +58,7 @@
 			<div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 				<div class="flex items-center justify-between">
 					<a href="https://shugur.com" class="logo">
-						<img src="{base}/shugur-logo.svg" alt="Shugur" class="logo-img" />
+						<img src="{assets}/shugur-logo.svg" alt="Shugur" class="logo-img" />
 						<div class="logo-text">
 							<span class="logo-main">Shugur</span>
 						</div>
