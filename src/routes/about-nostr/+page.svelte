@@ -1,5 +1,4 @@
 <script>
-	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -197,7 +196,7 @@
 				</p>
 				<div class="mt-6">
 					<a 
-						href="{base}/#installation" 
+						href="/#installation" 
 						class="inline-flex items-center rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500"
 					>
 						Get Started with Shugur Relay

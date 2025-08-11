@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { ArrowRight } from 'lucide-svelte';
-	import { base } from '$app/paths';
 </script>
 
 <div class="relative isolate px-6 pt-14 lg:px-8">
@@ -16,7 +15,7 @@
 			</p>
 			<div class="mt-10 flex items-center justify-center gap-x-6">
 				<a
-					href="{base}/#installation"
+					href="/#installation"
 					class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
 				>
 					Quick Start
