@@ -19,10 +19,10 @@
 </script>
 
 <header class="bg-white shadow-sm sticky top-0 z-50">
-	<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global navigation">
+	<nav class="mx-auto flex max-w-7xl items-center justify-between py-3 px-6 lg:px-8" aria-label="Global navigation">
 		<div class="flex lg:flex-1">
 			<a href="https://shugur.com" class="logo" aria-label="Shugur Network Homepage">
-				<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 200px; height: auto;" />
+				<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 170px; height: auto;" />
 			</a>
 		</div>
 		<div class="flex lg:hidden">
@@ -63,6 +63,7 @@
 	</nav>
 
 	{#if mobileMenuOpen}
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 		<div class="lg:hidden" id="mobile-menu" role="dialog" aria-modal="true" on:keydown={handleKeydown}>
 			<button 
 				type="button"

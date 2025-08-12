@@ -11,6 +11,7 @@ Official website for Shugur Relay - a production-ready Nostr relay built with Go
 Shugur Relay is a high-performance Nostr relay designed for production environments. It enables censorship-resistant social networks with enterprise features like monitoring, analytics, and managed scaling.
 
 ### Key Features
+
 - **Production-Ready**: Built for enterprise-grade reliability
 - **High Performance**: Optimized for thousands of concurrent connections
 - **Go & CockroachDB**: Robust technology stack for scalability
@@ -69,7 +70,7 @@ npm run format           # Format code with Prettier
 
 ## 📁 Project Structure
 
-```
+```text
 src/
 ├── routes/                    # SvelteKit routes
 │   ├── +layout.svelte        # Global layout with navigation
@@ -96,15 +97,18 @@ static/
 ## 🎨 Design System
 
 ### Brand Colors
+
 - **Primary**: `#36BA98` (Shugur Green)
 - **Dark**: `#1A1A1A` (Text)
 - **Light**: `#FAFAFA` (Background)
 
 ### Typography
+
 - **Primary Font**: League Spartan (Brand)
 - **Body Font**: System fonts via Tailwind CSS
 
 ### Components
+
 - **Navigation**: Responsive header with Shugur branding
 - **Hero**: Call-to-action with Quick Start and Documentation links
 - **Features**: Grid layout showcasing relay capabilities
@@ -115,6 +119,7 @@ static/
 ## 🚀 Deployment
 
 ### Automatic Deployment
+
 - **Platform**: Netlify
 - **Trigger**: Push to `main` branch
 - **Build Command**: `npm run build`
@@ -122,12 +127,15 @@ static/
 - **Base Path**: `/Relay-Website/` (configured for subdirectory deployment)
 
 ### Configuration
+
 The site is configured for deployment to a subdirectory path:
+
 - **Production Base**: `/Relay-Website/`
 - **Assets Path**: Configured for proper static asset resolution
 - **Prerendering**: Enabled for optimal SEO and performance
 
 ### Manual Deployment
+
 ```bash
 # Build the site
 npm run build
@@ -137,6 +145,7 @@ npm run build
 ```
 
 **Supported Platforms:**
+
 - ✅ Netlify (current)
 - ✅ Vercel
 - ✅ GitHub Pages
@@ -161,6 +170,7 @@ npm run build
 8. **Submit** a pull request
 
 ### Development Guidelines
+
 - Use TypeScript for type safety
 - Follow existing component patterns
 - Ensure responsive design (mobile-first)
