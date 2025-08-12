@@ -22,10 +22,7 @@
 	<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global navigation">
 		<div class="flex lg:flex-1">
 			<a href="https://shugur.com" class="logo" aria-label="Shugur Network Homepage">
-				<img src="/shugur-logo.svg" alt="Shugur" class="logo-img" />
-				<div class="logo-text">
-					<span class="logo-main">Shugur</span>
-				</div>
+				<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 200px; height: auto;" />
 			</a>
 		</div>
 		<div class="flex lg:hidden">
@@ -76,10 +73,7 @@
 			<div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 				<div class="flex items-center justify-between">
 					<a href="https://shugur.com" class="logo" aria-label="Shugur Network Homepage">
-						<img src="/shugur-logo.svg" alt="Shugur" class="logo-img" />
-						<div class="logo-text">
-							<span class="logo-main">Shugur</span>
-						</div>
+						<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 120px; height: auto;" />
 					</a>
 					<button 
 						type="button" 
