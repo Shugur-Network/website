@@ -179,4 +179,4 @@ This project is part of the Shugur Network ecosystem. See the main [Relay reposi
 
 ---
 
-Built with ❤️ by the Shugur Network team for the decentralized web.
+Built with ❤️ by Shugur team for the decentralized web.

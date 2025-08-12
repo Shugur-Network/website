@@ -1,13 +1,37 @@
-<script>
+<script lang="ts">
+	// Enhanced About Nostr page with better SEO and design system
 </script>
 
 <svelte:head>
 	<title>About Nostr Relays - The Infrastructure of Decentralized Social Networks | Shugur Relay</title>
-	<meta name="description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication." />
+	<meta name="description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication. Learn about the technology behind Shugur Relay." />
+	<meta name="keywords" content="nostr, relay, decentralized, social media, blockchain, censorship-resistant, infrastructure, protocol, events, websocket" />
+	<meta name="author" content="Shugur Network" />
+	
+	<!-- Open Graph -->
+	<meta property="og:title" content="About Nostr Relays - The Infrastructure of Decentralized Social Networks" />
+	<meta property="og:description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication." />
+	<meta property="og:url" content="https://shugur-network.github.io/Relay-Website/about-nostr" />
+	<meta property="og:type" content="article" />
+	
+	<!-- Twitter -->
+	<meta name="twitter:title" content="About Nostr Relays - The Infrastructure of Decentralized Social Networks" />
+	<meta name="twitter:description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication." />
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://shugur-network.github.io/Relay-Website/about-nostr" />
 </svelte:head>
 
 <div class="bg-white px-6 py-32 lg:px-8">
 	<div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
+		<nav class="mb-8" aria-label="Breadcrumb">
+			<ol class="flex items-center space-x-2 text-sm text-gray-500">
+				<li><a href="/" class="hover:text-shugur-600 transition-colors duration-200">Home</a></li>
+				<li><span class="mx-2">/</span></li>
+				<li class="text-gray-900">About Nostr</li>
+			</ol>
+		</nav>
+		
 		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 			Understanding Nostr Relays: The Backbone of Decentralized Communication
 		</h1>
@@ -26,9 +50,9 @@
 				and deliver them to anyone who requests them.
 			</p>
 			
-			<div class="mt-8 rounded-lg bg-blue-50 p-6">
-				<h3 class="text-lg font-semibold text-blue-900">Key Characteristics</h3>
-				<ul class="mt-4 space-y-2 text-blue-800">
+			<div class="mt-8 rounded-lg bg-shugur-50 p-6 border border-shugur-200">
+				<h3 class="text-lg font-semibold text-shugur-900">Key Characteristics</h3>
+				<ul class="mt-4 space-y-2 text-shugur-800">
 					<li>• <strong>Stateless:</strong> Relays don't maintain user sessions or authentication state</li>
 					<li>• <strong>Simple:</strong> Uses WebSocket connections for real-time communication</li>
 					<li>• <strong>Event-driven:</strong> Everything is an "event" - posts, likes, follows, messages</li>
@@ -40,7 +64,7 @@
 			
 			<div class="mt-8 space-y-12">
 				<div class="grid gap-8 lg:grid-cols-3">
-					<div class="rounded-lg border border-gray-200 p-6">
+					<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 						<div class="text-center">
 							<div class="mx-auto h-12 w-12 rounded-full bg-green-100 flex items-center justify-center">
 								<span class="text-xl font-bold text-green-600">1</span>
@@ -52,10 +76,10 @@
 						</div>
 					</div>
 					
-					<div class="rounded-lg border border-gray-200 p-6">
+					<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 						<div class="text-center">
-							<div class="mx-auto h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
-								<span class="text-xl font-bold text-blue-600">2</span>
+							<div class="mx-auto h-12 w-12 rounded-full bg-shugur-100 flex items-center justify-center">
+								<span class="text-xl font-bold text-shugur-600">2</span>
 							</div>
 							<h3 class="mt-4 font-semibold text-gray-900">Relay Distribution</h3>
 							<p class="mt-2 text-sm text-gray-600">
@@ -64,7 +88,7 @@
 						</div>
 					</div>
 					
-					<div class="rounded-lg border border-gray-200 p-6">
+					<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 						<div class="text-center">
 							<div class="mx-auto h-12 w-12 rounded-full bg-purple-100 flex items-center justify-center">
 								<span class="text-xl font-bold text-purple-600">3</span>
@@ -81,28 +105,28 @@
 			<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Types of Relay Operations</h2>
 			
 			<div class="mt-8 space-y-6">
-				<div class="rounded-lg bg-gray-50 p-6">
+				<div class="rounded-lg bg-gray-50 p-6 border border-gray-200">
 					<h3 class="text-lg font-semibold text-gray-900">READ Operations</h3>
 					<p class="mt-2">
-						Clients send <code class="bg-gray-200 px-2 py-1 rounded">REQ</code> messages to request events. 
-						Relays respond with matching events and send <code class="bg-gray-200 px-2 py-1 rounded">EOSE</code> 
+						Clients send <code class="bg-gray-200 px-2 py-1 rounded text-sm">REQ</code> messages to request events. 
+						Relays respond with matching events and send <code class="bg-gray-200 px-2 py-1 rounded text-sm">EOSE</code> 
 						(End of Stored Events) when the initial query is complete.
 					</p>
 				</div>
 				
-				<div class="rounded-lg bg-gray-50 p-6">
+				<div class="rounded-lg bg-gray-50 p-6 border border-gray-200">
 					<h3 class="text-lg font-semibold text-gray-900">WRITE Operations</h3>
 					<p class="mt-2">
-						Clients send <code class="bg-gray-200 px-2 py-1 rounded">EVENT</code> messages to publish new content. 
-						Relays validate the signature and respond with <code class="bg-gray-200 px-2 py-1 rounded">OK</code> 
+						Clients send <code class="bg-gray-200 px-2 py-1 rounded text-sm">EVENT</code> messages to publish new content. 
+						Relays validate the signature and respond with <code class="bg-gray-200 px-2 py-1 rounded text-sm">OK</code> 
 						messages indicating acceptance or rejection.
 					</p>
 				</div>
 				
-				<div class="rounded-lg bg-gray-50 p-6">
+				<div class="rounded-lg bg-gray-50 p-6 border border-gray-200">
 					<h3 class="text-lg font-semibold text-gray-900">CLOSE Operations</h3>
 					<p class="mt-2">
-						Clients can close subscriptions using <code class="bg-gray-200 px-2 py-1 rounded">CLOSE</code> 
+						Clients can close subscriptions using <code class="bg-gray-200 px-2 py-1 rounded text-sm">CLOSE</code> 
 						messages to stop receiving events for specific queries.
 					</p>
 				</div>
@@ -111,7 +135,7 @@
 			<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Why Relays Are Essential</h2>
 			
 			<div class="mt-8 grid gap-8 lg:grid-cols-2">
-				<div class="rounded-lg border border-gray-200 p-6">
+				<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 					<h3 class="font-semibold text-gray-900 text-lg">Redundancy & Resilience</h3>
 					<p class="mt-3">
 						Users connect to multiple relays simultaneously. If one relay goes down or censors content, 
@@ -120,7 +144,7 @@
 					</p>
 				</div>
 				
-				<div class="rounded-lg border border-gray-200 p-6">
+				<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 					<h3 class="font-semibold text-gray-900 text-lg">Geographic Distribution</h3>
 					<p class="mt-3">
 						Relays can be deployed globally, reducing latency and providing local data sovereignty. 
@@ -128,7 +152,7 @@
 					</p>
 				</div>
 				
-				<div class="rounded-lg border border-gray-200 p-6">
+				<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 					<h3 class="font-semibold text-gray-900 text-lg">Specialized Services</h3>
 					<p class="mt-3">
 						Different relays can offer specialized features: some focus on performance, others on specific 
@@ -136,7 +160,7 @@
 					</p>
 				</div>
 				
-				<div class="rounded-lg border border-gray-200 p-6">
+				<div class="rounded-lg border border-gray-200 p-6 hover:border-shugur-300 transition-colors duration-200">
 					<h3 class="font-semibold text-gray-900 text-lg">Economic Sustainability</h3>
 					<p class="mt-3">
 						Relays can implement various business models: subscription fees, micropayments, 
@@ -151,15 +175,15 @@
 				<div>
 					<h3 class="text-lg font-semibold text-gray-900">Performance Requirements</h3>
 					<div class="mt-4 grid gap-4 md:grid-cols-3">
-						<div class="rounded-lg bg-yellow-50 p-4">
+						<div class="rounded-lg bg-yellow-50 p-4 border border-yellow-200">
 							<h4 class="font-medium text-yellow-900">High Throughput</h4>
 							<p class="mt-1 text-sm text-yellow-800">Handle thousands of simultaneous WebSocket connections</p>
 						</div>
-						<div class="rounded-lg bg-blue-50 p-4">
-							<h4 class="font-medium text-blue-900">Low Latency</h4>
-							<p class="mt-1 text-sm text-blue-800">Real-time event distribution for live conversations</p>
+						<div class="rounded-lg bg-shugur-50 p-4 border border-shugur-200">
+							<h4 class="font-medium text-shugur-900">Low Latency</h4>
+							<p class="mt-1 text-sm text-shugur-800">Real-time event distribution for live conversations</p>
 						</div>
-						<div class="rounded-lg bg-green-50 p-4">
+						<div class="rounded-lg bg-green-50 p-4 border border-green-200">
 							<h4 class="font-medium text-green-900">Scalability</h4>
 							<p class="mt-1 text-sm text-green-800">Horizontal scaling to support growing user bases</p>
 						</div>
@@ -187,9 +211,9 @@
 				</div>
 			</div>
 			
-			<div class="mt-16 rounded-lg bg-green-50 p-8">
-				<h3 class="text-xl font-semibold text-green-900">Shugur Relay: Enterprise-Grade Nostr Infrastructure</h3>
-				<p class="mt-4 text-green-800">
+			<div class="mt-16 rounded-lg bg-shugur-50 p-8 border border-shugur-200">
+				<h3 class="text-xl font-semibold text-shugur-900">Shugur Relay: Enterprise-Grade Nostr Infrastructure</h3>
+				<p class="mt-4 text-shugur-800">
 					Shugur Relay is built specifically for production environments, offering high-performance Nostr 
 					relay infrastructure with enterprise features like monitoring, analytics, and managed scaling. 
 					Deploy your own censorship-resistant social network infrastructure in minutes, not months.
@@ -197,7 +221,7 @@
 				<div class="mt-6">
 					<a 
 						href="/#installation" 
-						class="inline-flex items-center rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500"
+						class="inline-flex items-center rounded-md bg-shugur-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-shugur-700 transition-colors duration-200"
 					>
 						Get Started with Shugur Relay
 					</a>

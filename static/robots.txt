@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://shugur-network.github.io/Relay-Website/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
