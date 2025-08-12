@@ -8,7 +8,7 @@
 	<title>Shugur Relay - Production-Ready Nostr Infrastructure</title>
 	<meta
 		name="description"
-		content="Deploy censorship-resistant social networks with enterprise-grade reliability. High-performance Nostr relay built with Go and CockroachDB. Get started in 10 minutes."
+		content="Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes."
 	/>
 	<meta
 		name="keywords"
@@ -19,13 +19,13 @@
 	
 	<!-- Open Graph -->
 	<meta property="og:title" content="Shugur Relay - Production-Ready Nostr Infrastructure" />
-	<meta property="og:description" content="Deploy censorship-resistant social networks with enterprise-grade reliability. High-performance Nostr relay built with Go and CockroachDB." />
+	<meta property="og:description" content="Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes." />
 	<meta property="og:url" content="https://shugur-network.github.io/Relay-Website/" />
 	<meta property="og:type" content="website" />
 	
 	<!-- Twitter -->
 	<meta name="twitter:title" content="Shugur Relay - Production-Ready Nostr Infrastructure" />
-	<meta name="twitter:description" content="Deploy censorship-resistant social networks with enterprise-grade reliability. High-performance Nostr relay built with Go and CockroachDB." />
+	<meta name="twitter:description" content="Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes." />
 	
 	<!-- Canonical URL -->
 	<link rel="canonical" href="https://shugur-network.github.io/Relay-Website/" />

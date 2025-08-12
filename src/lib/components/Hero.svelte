@@ -10,8 +10,7 @@
 				<span class="text-shugur-500 font-spartan"> Nostr Relay</span>
 			</h1>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
-				Deploy censorship-resistant social networks with enterprise-grade reliability. 
-				High-performance relay built with Go and CockroachDB, ready in 10 minutes.
+				Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes.
 			</p>
 			<div class="mt-10 flex items-center justify-center gap-x-6">
 				<a

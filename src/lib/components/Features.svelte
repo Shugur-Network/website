@@ -3,7 +3,6 @@
 		Rocket, 
 		Shield, 
 		Cpu, 
-		Server, 
 		Clock, 
 		FileText 
 	} from 'lucide-svelte';
@@ -42,11 +41,11 @@
 		<div class="mx-auto max-w-2xl lg:text-center">
 			<h2 class="text-base font-semibold leading-7 text-shugur-600 font-spartan">Deploy Faster</h2>
 			<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-				Everything you need for production Nostr infrastructure
+				Everything you need for production Nostr Relay
 			</p>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
-				From automated deployment to enterprise monitoring, Shugur Relay provides battle-tested infrastructure 
-				for censorship-resistant social networks.
+				From automated deployment to enterprise monitoring, Shugur provides battle-tested nostr relay 
+				for censorship-resistant applications.
 			</p>
 		</div>
 		<div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
