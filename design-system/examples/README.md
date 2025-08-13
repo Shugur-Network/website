@@ -5,18 +5,21 @@ This directory contains practical implementation examples using the Shugur Desig
 ## 📁 Examples Overview
 
 ### Basic Examples
+
 - `landing-page.svelte` - Complete landing page layout
 - `dashboard.svelte` - Dashboard interface with cards and metrics
 - `contact-form.svelte` - Accessible contact form
 - `blog-layout.svelte` - Blog post layout with typography
 
 ### Advanced Examples
+
 - `e-commerce-product.svelte` - Product page with image gallery
 - `pricing-page.svelte` - Pricing tiers with feature comparison
 - `documentation.svelte` - Documentation layout with navigation
 - `authentication.svelte` - Login/signup forms
 
 ### Component Demos
+
 - `button-showcase.svelte` - All button variants and states
 - `card-variations.svelte` - Different card layouts and styles
 - `navigation-examples.svelte` - Various navigation patterns
@@ -42,24 +45,28 @@ Each example file is a complete, working Svelte component that demonstrates:
 ## 🎯 Key Features Demonstrated
 
 ### Layout Patterns
+
 - Mobile-first responsive design
 - Grid and flexbox layouts
 - Container and spacing utilities
 - Section organization
 
 ### Component Integration
+
 - Proper component composition
 - Event handling patterns
 - State management
 - Prop configuration
 
 ### Accessibility
+
 - ARIA labels and roles
 - Keyboard navigation
 - Screen reader support
 - Focus management
 
 ### Performance
+
 - Optimized animations
 - Efficient component structure
 - Minimal bundle impact
@@ -77,6 +84,7 @@ All examples are built with mobile-first design:
 ## 🎨 Customization Guide
 
 ### Colors
+
 ```svelte
 <!-- Replace brand colors -->
 <Button variant="primary">  <!-- Uses shugur-500 -->
@@ -84,6 +92,7 @@ All examples are built with mobile-first design:
 ```
 
 ### Typography
+
 ```svelte
 <!-- Heading hierarchy -->
 <h1 class="text-4xl font-bold font-spartan">
@@ -91,6 +100,7 @@ All examples are built with mobile-first design:
 ```
 
 ### Spacing
+
 ```svelte
 <!-- Consistent spacing -->
 <section class="section">  <!-- py-24 sm:py-32 -->

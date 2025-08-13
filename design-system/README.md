@@ -26,6 +26,7 @@ design-system/
 ## 🚀 Quick Start
 
 1. **Install Dependencies**
+
    ```bash
    npm install tailwindcss @tailwindcss/typography lucide-svelte
    ```
@@ -34,11 +35,13 @@ design-system/
    Copy the configuration from `tokens/tailwind.config.js`
 
 3. **Import Base Styles**
+
    ```css
    @import './design-system/tokens/base.css';
    ```
 
 4. **Use Components**
+
    ```svelte
    import { Button, Card, Navigation } from './design-system/components';
    ```
