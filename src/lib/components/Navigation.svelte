@@ -22,7 +22,7 @@
 	<div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between" aria-label="Global navigation">
 		<div class="flex lg:flex-1">
 			<a href="/" class="logo" aria-label="Shugur Relay Homepage">
-				<img src="/shugur-logo-full.svg" alt="Shugur Relay Logo" class="logo-img" style="width: 170px; height: auto;" />
+				<img src="/shugur-logo-full.svg" alt="Shugur Relay Logo" class="logo-img" width="170" height="40" style="width: 170px; height: auto;" />
 			</a>
 		</div>
 		<div class="flex lg:hidden">
@@ -86,7 +86,7 @@
 			>
 				<div class="flex items-center justify-between">
 					<a href="/" class="logo" aria-label="Shugur Relay Homepage" on:click={closeMobileMenu}>
-						<img src="/shugur-logo-full.svg" alt="Shugur Relay Logo" class="logo-img" style="width: 120px; height: auto;" />
+						<img src="/shugur-logo-full.svg" alt="Shugur Relay Logo" class="logo-img" width="120" height="28" style="width: 120px; height: auto;" />
 					</a>
 					<button 
 						type="button" 

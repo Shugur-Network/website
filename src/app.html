@@ -3,10 +3,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		
 		<!-- Web App Manifest -->
 		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
+		
+		<!-- Resource hints -->
+		<link rel="dns-prefetch" href="//docs.shugur.com">
+		<link rel="dns-prefetch" href="//github.com">
 		
 		<!-- Apple Touch Icons -->
 		<link rel="apple-touch-icon" href="%sveltekit.assets%/shugur-logo.svg" />
@@ -14,7 +18,8 @@
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+		<noscript><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"></noscript>
 		
 		<!-- SEO Meta Tags -->
 		<meta name="robots" content="index, follow" />
@@ -85,6 +90,18 @@
 			}
 		}
 		</script>
+		
+		<!-- Critical CSS for above-the-fold content -->
+		<style>
+			.h-full{height:100%}
+			.min-h-screen{min-height:100vh}
+			.bg-white{background-color:#fff}
+			.text-4xl{font-size:2.25rem;line-height:2.5rem}
+			.font-bold{font-weight:700}
+			.text-gray-900{color:#111827}
+			.animate-fade-in{animation:fadeIn 0.5s ease-in-out}
+			@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+		</style>
 		
 		%sveltekit.head%
 	</head>

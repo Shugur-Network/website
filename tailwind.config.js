@@ -10,11 +10,11 @@ export default {
 					200: '#99f6e4',
 					300: '#5eead4',
 					400: '#2dd4bf',
-					500: '#36BA98', // Primary Shugur Green
-					600: '#0d9488',
-					700: '#0f766e',
-					800: '#115e59',
-					900: '#134e4a',
+					500: '#059669', // Darker primary for better contrast
+					600: '#047857', // Darker for better contrast
+					700: '#065f46',
+					800: '#064e3b',
+					900: '#022c22',
 					950: '#042f2e'
 				},
 				primary: {
