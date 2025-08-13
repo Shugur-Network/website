@@ -22,6 +22,7 @@ Shugur Relay is a high-performance Nostr relay designed for production environme
 
 - **Framework**: [SvelteKit](https://kit.svelte.dev/) with TypeScript
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) for responsive design
+- **Design System**: [@shugur/design-system](https://github.com/Shugur-Network/design-system) for consistent UI components
 - **Icons**: [Lucide Svelte](https://lucide.dev/) for beautiful iconography
 - **Fonts**: League Spartan for Shugur branding
 - **Deployment**: Netlify with automatic builds
@@ -79,7 +80,7 @@ src/
 │   └── about-nostr/          
 │       └── +page.svelte      # About Nostr detailed page
 ├── lib/
-│   └── components/           # Reusable Svelte components
+│   └── components/           # Website-specific components
 │       ├── Navigation.svelte # Header with logo and navigation
 │       ├── Hero.svelte       # Landing hero section
 │       ├── Features.svelte   # Key features showcase
@@ -94,27 +95,35 @@ static/
 └── shugur-logo.svg          # Shugur brand logo
 ```
 
+**Note**: Reusable UI components have been moved to the [@shugur/design-system](https://github.com/Shugur-Network/design-system) package for better maintainability and cross-project usage.
+
 ## 🎨 Design System
 
-### Brand Colors
+The Shugur Design System has been moved to its own dedicated repository for better reusability and maintenance:
 
-- **Primary**: `#36BA98` (Shugur Green)
-- **Dark**: `#1A1A1A` (Text)
-- **Light**: `#FAFAFA` (Background)
+**Repository**: [Shugur-Network/design-system](https://github.com/Shugur-Network/design-system)
 
-### Typography
+### Installation
 
-- **Primary Font**: League Spartan (Brand)
-- **Body Font**: System fonts via Tailwind CSS
+```bash
+npm install @shugur/design-system
+```
 
-### Components
+### Usage
 
-- **Navigation**: Responsive header with Shugur branding
-- **Hero**: Call-to-action with Quick Start and Documentation links
-- **Features**: Grid layout showcasing relay capabilities
-- **Installation**: Code snippets with copy functionality
-- **Architecture**: Technical benefits and implementation details
-- **Footer**: Minimal footer with copyright and GitHub link
+```javascript
+import { Button, Card, Navigation, Hero, Features, Footer } from '@shugur/design-system';
+```
+
+### Features
+
+- **6 Core Components**: Button, Card, Navigation, Hero, Features, Footer
+- **Complete Design Tokens**: Colors, typography, spacing, animations
+- **Accessibility**: WCAG 2.1 AA compliant
+- **Responsive Design**: Mobile-first approach
+- **TypeScript Support**: Full type definitions included
+
+For detailed documentation, examples, and usage guides, visit the [design system repository](https://github.com/Shugur-Network/design-system).
 
 ## 🚀 Deployment
 
@@ -154,6 +163,7 @@ npm run build
 
 ## 🔗 Related Links
 
+- **Design System**: [Shugur-Network/design-system](https://github.com/Shugur-Network/design-system)
 - **Main Relay Repository**: [Shugur-Network/Relay](https://github.com/Shugur-Network/Relay)
 - **Company Website**: [shugur.com](https://shugur.com)
 - **Documentation Site**: [docs.shugur.com](https://docs.shugur.com)
@@ -173,6 +183,7 @@ npm run build
 
 - Use TypeScript for type safety
 - Follow existing component patterns
+- Use [@shugur/design-system](https://github.com/Shugur-Network/design-system) components when possible
 - Ensure responsive design (mobile-first)
 - Test on multiple screen sizes
 - Maintain consistent branding
