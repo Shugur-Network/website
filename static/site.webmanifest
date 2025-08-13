@@ -1,0 +1,25 @@
+{
+  "name": "Shugur Relay",
+  "short_name": "Shugur Relay",
+  "description": "Production-ready Nostr relay built with Go and CockroachDB for enterprise-grade reliability and performance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#36BA98",
+  "icons": [
+    {
+      "src": "/shugur-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/shugur-logo-full.svg",
+      "sizes": "432x406",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["developer", "technology", "decentralized"],
+  "lang": "en",
+  "dir": "ltr"
+}

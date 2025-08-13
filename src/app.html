@@ -5,6 +5,12 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
+		<!-- Web App Manifest -->
+		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
+		
+		<!-- Apple Touch Icons -->
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/shugur-logo.svg" />
+		
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +48,40 @@
 			},
 			"author": {
 				"@type": "Organization",
-				"name": "Shugur Network"
+				"name": "Shugur Network",
+				"url": "https://shugur.com",
+				"logo": "https://relay.shugur.net/shugur-logo-full.svg",
+				"sameAs": [
+					"https://github.com/Shugur-Network",
+					"https://twitter.com/ShugurNetwork"
+				]
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "Shugur Network",
+				"url": "https://shugur.com",
+				"logo": "https://relay.shugur.net/shugur-logo-full.svg"
+			}
+		}
+		</script>
+		
+		<!-- Organization Schema -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Shugur Network",
+			"url": "https://shugur.com",
+			"logo": "https://relay.shugur.net/shugur-logo-full.svg",
+			"description": "Build open, resilient tech for everyone. Independent studio shipping pragmatic, decentralized infrastructure and developer tools.",
+			"sameAs": [
+				"https://github.com/Shugur-Network",
+				"https://twitter.com/ShugurNetwork"
+			],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "customer service",
+				"email": "contact@shugur.com"
 			}
 		}
 		</script>
