@@ -20,7 +20,7 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content="Shugur Relay - Production-Ready Nostr Infrastructure" />
 	<meta property="og:description" content="Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes." />
-	<meta property="og:url" content="https://shugur-network.github.io/Relay-Website/" />
+	<meta property="og:url" content="https://shugur.com" />
 	<meta property="og:type" content="website" />
 	
 	<!-- Twitter -->
@@ -28,7 +28,7 @@
 	<meta name="twitter:description" content="Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes." />
 	
 	<!-- Canonical URL -->
-	<link rel="canonical" href="https://shugur-network.github.io/Relay-Website/" />
+	<link rel="canonical" href="https://shugur.com" />
 </svelte:head>
 
 <div class="min-h-screen bg-white">

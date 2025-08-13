@@ -1,6 +1,20 @@
 <svelte:head>
-  <title>Privacy Policy - Shugur</title>
-  <meta name="description" content="Privacy Policy for Shugur company website." />
+  <title>Privacy Policy - Shugur Relay | Data Protection and User Privacy</title>
+  <meta name="description" content="Read Shugur Relay's privacy policy. Learn how we protect your data, what information we collect, and your privacy rights when using our Nostr relay infrastructure." />
+  <meta name="keywords" content="privacy policy, data protection, GDPR, user privacy, nostr relay, shugur" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy - Shugur Relay" />
+  <meta property="og:description" content="Read Shugur Relay's privacy policy. Learn how we protect your data and your privacy rights." />
+  <meta property="og:url" content="https://shugur.com/privacy" />
+  <meta property="og:type" content="article" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Privacy Policy - Shugur Relay" />
+  <meta name="twitter:description" content="Read Shugur Relay's privacy policy. Learn how we protect your data and your privacy rights." />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://shugur.com/privacy" />
 </svelte:head>
 
 <div class="mx-auto max-w-4xl px-4 py-16">

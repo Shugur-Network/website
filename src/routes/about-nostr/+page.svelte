@@ -11,7 +11,7 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content="About Nostr Relays - The Infrastructure of Decentralized Social Networks" />
 	<meta property="og:description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication." />
-	<meta property="og:url" content="https://shugur-network.github.io/Relay-Website/about-nostr" />
+	<meta property="og:url" content="https://shugur.com/about-nostr" />
 	<meta property="og:type" content="article" />
 	
 	<!-- Twitter -->
@@ -19,7 +19,7 @@
 	<meta name="twitter:description" content="Deep dive into Nostr relays: how they work, their role in decentralized networks, and why they're essential for censorship-resistant communication." />
 	
 	<!-- Canonical URL -->
-	<link rel="canonical" href="https://shugur-network.github.io/Relay-Website/about-nostr" />
+	<link rel="canonical" href="https://shugur.com/about-nostr" />
 </svelte:head>
 
 <div class="bg-white px-6 py-32 lg:px-8">

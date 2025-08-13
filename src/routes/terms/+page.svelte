@@ -1,6 +1,20 @@
 <svelte:head>
-  <title>Terms of Service - Shugur</title>
-  <meta name="description" content="Terms of Service for Shugur company website." />
+  <title>Terms of Service - Shugur Relay | Legal Terms and Conditions</title>
+  <meta name="description" content="Read Shugur Relay's terms of service. Understand the legal terms, conditions, and usage policies for our Nostr relay infrastructure and services." />
+  <meta name="keywords" content="terms of service, legal terms, conditions, nostr relay, shugur, usage policy" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Terms of Service - Shugur Relay" />
+  <meta property="og:description" content="Read Shugur Relay's terms of service. Understand the legal terms and conditions for our services." />
+  <meta property="og:url" content="https://shugur.com/terms" />
+  <meta property="og:type" content="article" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Terms of Service - Shugur Relay" />
+  <meta name="twitter:description" content="Read Shugur Relay's terms of service. Understand the legal terms and conditions for our services." />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://shugur.com/terms" />
 </svelte:head>
 
 <div class="mx-auto max-w-4xl px-4 py-16">
