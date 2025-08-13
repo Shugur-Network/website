@@ -5,9 +5,6 @@
     Users, 
     ExternalLink 
   } from 'lucide-svelte';
-  import BuildIcon from '$lib/components/BuildIcon.svelte';
-  import OptimizeIcon from '$lib/components/OptimizeIcon.svelte';
-  import ConnectIcon from '$lib/components/ConnectIcon.svelte';
 </script>
 
 <svelte:head>
@@ -23,60 +20,6 @@
       "Build open, resilient tech for everyone."
     </div>
   </div>
-
-  <!-- Simple where it matters Section -->
-  <section class="mb-20">
-    <header class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4 font-spartan">Simple where it matters, open where it counts.</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto">
-        We focus on building things that solve real problems with simple and elegant solutions.
-      </p>
-    </header>
-    
-    <div class="grid md:grid-cols-3 gap-8">
-      <div 
-        class="p-8 border border-gray-200 rounded-2xl bg-white hover:shadow-lg hover:border-shugur-500/20 transition-all duration-300 transform hover:-translate-y-1"
-      >
-        <div class="flex items-center gap-4 mb-6">
-          <div class="w-14 h-14 bg-shugur-500/10 rounded-xl flex items-center justify-center flex-shrink-0">
-            <BuildIcon className="w-7 h-7 text-shugur-500" />
-          </div>
-          <div class="font-bold text-2xl text-gray-900">Build</div>
-        </div>
-        <div class="text-gray-600 text-sm leading-relaxed">
-          Tools that solve one problem extremely well.
-        </div>
-      </div>
-      
-      <div 
-        class="p-8 border border-gray-200 rounded-2xl bg-white hover:shadow-lg hover:border-shugur-500/20 transition-all duration-300 transform hover:-translate-y-1"
-      >
-        <div class="flex items-center gap-4 mb-6">
-          <div class="w-14 h-14 bg-shugur-500/10 rounded-xl flex items-center justify-center flex-shrink-0">
-            <OptimizeIcon className="w-7 h-7 text-shugur-500" />
-          </div>
-          <div class="font-bold text-2xl text-gray-900">Optimize</div>
-        </div>
-        <div class="text-gray-600 text-sm leading-relaxed">
-          Better performance, lower cost, fewer moving parts.
-        </div>
-      </div>
-      
-      <div 
-        class="p-8 border border-gray-200 rounded-2xl bg-white hover:shadow-lg hover:border-shugur-500/20 transition-all duration-300 transform hover:-translate-y-1"
-      >
-        <div class="flex items-center gap-4 mb-6">
-          <div class="w-14 h-14 bg-shugur-500/10 rounded-xl flex items-center justify-center flex-shrink-0">
-            <ConnectIcon className="w-7 h-7 text-shugur-500" />
-          </div>
-          <div class="font-bold text-2xl text-gray-900">Connect</div>
-        </div>
-        <div class="text-gray-600 text-sm leading-relaxed">
-          Integrations that make services work as one.
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Mission Section -->
   <section class="mb-20">

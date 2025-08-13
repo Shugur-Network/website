@@ -21,7 +21,7 @@
 					Quick Start
 				</a>
 				<a 
-					href="https://docs.relay.shugur.com" 
+					href="https://docs.shugur.com" 
 					class="text-sm font-semibold leading-6 text-gray-900 hover:text-shugur-600 flex items-center gap-1 transition-colors duration-200"
 					aria-label="View Shugur Relay documentation"
 				>

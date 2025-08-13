@@ -49,7 +49,7 @@
 
 		<div class="mt-16 text-center">
 			<a
-				href="https://docs.relay.shugur.com/architecture"
+				href="https://docs.shugur.com/architecture"
 				class="inline-flex items-center rounded-md bg-shugur-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shugur-600 transition-colors duration-200"
 			>
 				Learn More About Architecture

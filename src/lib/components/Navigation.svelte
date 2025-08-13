@@ -44,7 +44,7 @@
 			<a href="/#installation" class="text-sm font-semibold leading-6 text-gray-900 hover:text-shugur-600 transition-colors duration-200">
 				Installation
 			</a>
-			<a href="https://docs.relay.shugur.com" class="text-sm font-semibold leading-6 text-gray-900 hover:text-shugur-600 transition-colors duration-200">
+			<a href="https://docs.shugur.com" class="text-sm font-semibold leading-6 text-gray-900 hover:text-shugur-600 transition-colors duration-200">
 				Documentation
 			</a>
 			<a href="/about-nostr" class="text-sm font-semibold leading-6 text-gray-900 hover:text-shugur-600 transition-colors duration-200">
@@ -103,7 +103,7 @@
 								Installation
 							</a>
 							<a
-								href="https://docs.relay.shugur.com"
+								href="https://docs.shugur.com"
 								class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-colors duration-200"
 								on:click={closeMobileMenu}
 							>

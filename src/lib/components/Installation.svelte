@@ -121,11 +121,11 @@
 		<div class="mt-16 text-center">
 			<p class="text-sm text-gray-600">
 				Need help choosing? Check out our
-				<a href="https://docs.relay.shugur.com/installation" class="text-shugur-600 hover:text-shugur-500 transition-colors duration-200">
+				<a href="https://docs.shugur.com/installation" class="text-shugur-600 hover:text-shugur-500 transition-colors duration-200">
 					detailed installation guide
 				</a>
 				or
-				<a href="https://docs.relay.shugur.com/getting-started" class="text-shugur-600 hover:text-shugur-500 transition-colors duration-200">
+				<a href="https://docs.shugur.com/getting-started" class="text-shugur-600 hover:text-shugur-500 transition-colors duration-200">
 					system requirements
 				</a>
 			</p>

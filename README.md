@@ -29,10 +29,10 @@ Shugur Relay is a high-performance Nostr relay designed for production environme
 
 ## 📖 Documentation
 
-- **Main Documentation**: [docs.relay.shugur.com](https://docs.relay.shugur.com)
-- **Installation Guide**: [docs.relay.shugur.com/installation](https://docs.relay.shugur.com/installation)
-- **Getting Started**: [docs.relay.shugur.com/getting-started](https://docs.relay.shugur.com/getting-started)
-- **Architecture**: [docs.relay.shugur.com/architecture](https://docs.relay.shugur.com/architecture)
+- **Main Documentation**: [docs.shugur.com](https://docs.shugur.com)
+- **Installation Guide**: [docs.shugur.com/installation](https://docs.shugur.com/installation)
+- **Getting Started**: [docs.shugur.com/getting-started](https://docs.shugur.com/getting-started)
+- **Architecture**: [docs.shugur.com/architecture](https://docs.shugur.com/architecture)
 
 ## 🏃 Quick Start
 
@@ -156,7 +156,7 @@ npm run build
 
 - **Main Relay Repository**: [Shugur-Network/Relay](https://github.com/Shugur-Network/Relay)
 - **Company Website**: [shugur.com](https://shugur.com)
-- **Documentation Site**: [docs.relay.shugur.com](https://docs.relay.shugur.com)
+- **Documentation Site**: [docs.shugur.com](https://docs.shugur.com)
 
 ## 🤝 Contributing
 
@@ -184,7 +184,7 @@ This project is part of the Shugur Network ecosystem. See the main [Relay reposi
 ## 🆘 Support
 
 - **Issues**: [GitHub Issues](https://github.com/Shugur-Network/Relay-Website/issues)
-- **Documentation**: [docs.relay.shugur.com](https://docs.relay.shugur.com)
+- **Documentation**: [docs.shugur.com](https://docs.shugur.com)
 - **Main Project**: [Shugur-Network/Relay](https://github.com/Shugur-Network/Relay)
 
 ---
