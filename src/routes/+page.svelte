@@ -11,13 +11,13 @@
   <meta name="keywords" content="nostr relay, nostr, decentralized, relay, go, cockroachdb, enterprise, performance, scalability, nostr protocol, nostr implementation, nostr infrastructure" />
   
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://relay.shugur.net" />
+  <link rel="canonical" href="https://shugur.com" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Shugur Relay - Production-Ready Nostr Relay" />
   <meta property="og:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes. Built with Go and CockroachDB." />
-  <meta property="og:url" content="https://relay.shugur.net" />
-  <meta property="og:image" content="https://relay.shugur.net/shugur-logo-full.svg" />
+  <meta property="og:url" content="https://shugur.com" />
+  <meta property="og:image" content="https://shugur.com/shugur-logo-full.svg" />
   <meta property="og:image:alt" content="Shugur Relay Logo" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Shugur Relay" />
@@ -25,7 +25,7 @@
   <!-- Twitter -->
   <meta name="twitter:title" content="Shugur Relay - Production-Ready Nostr Relay" />
   <meta name="twitter:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
-  <meta name="twitter:image" content="https://relay.shugur.net/shugur-logo-full.svg" />
+  <meta name="twitter:image" content="https://shugur.com/shugur-logo-full.svg" />
   <meta name="twitter:image:alt" content="Shugur Relay Logo" />
   
   <!-- Additional SEO -->

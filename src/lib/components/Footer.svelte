@@ -30,7 +30,7 @@
       <div>
         <h3 class="font-semibold mb-3 text-white">Resources</h3>
         <ul class="space-y-2 text-sm text-gray-400">
-          <li><a href="https://docs.shugur.net" class="hover:text-shugur-500 transition-colors">Documentation</a></li>
+          <li><a href="https://docs.shugur.com" class="hover:text-shugur-500 transition-colors">Documentation</a></li>
           <li><a href="https://github.com/Shugur-Network" class="hover:text-shugur-500 transition-colors">GitHub</a></li>
         </ul>
       </div>

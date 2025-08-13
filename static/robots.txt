@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://relay.shugur.net/sitemap.xml
+Sitemap: https://shugur.com/sitemap.xml
 
 # Crawl delay (optional)
 Crawl-delay: 1
