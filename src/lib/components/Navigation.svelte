@@ -21,7 +21,7 @@
 <header class="bg-white shadow-sm sticky top-0 z-50">
 	<div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between" aria-label="Global navigation">
 		<div class="flex lg:flex-1">
-			<a href="https://shugur.com" class="logo" aria-label="Shugur Network Homepage">
+			<a href="/" class="logo" aria-label="Shugur Relay Homepage">
 				<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 170px; height: auto;" />
 			</a>
 		</div>
@@ -63,7 +63,7 @@
 	</div>
 
 	{#if mobileMenuOpen}
-		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<!-- svelte:ignore a11y-no-noninteractive-element-interactions -->
 		<div class="lg:hidden" id="mobile-menu" role="dialog" aria-modal="true" on:keydown={handleKeydown}>
 			<button 
 				type="button"
@@ -73,7 +73,7 @@
 			></button>
 			<div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 				<div class="flex items-center justify-between">
-					<a href="https://shugur.com" class="logo" aria-label="Shugur Network Homepage">
+					<a href="/" class="logo" aria-label="Shugur Relay Homepage">
 						<img src="/shugur-logo-full.svg" alt="Shugur" class="logo-img" style="width: 120px; height: auto;" />
 					</a>
 					<button 

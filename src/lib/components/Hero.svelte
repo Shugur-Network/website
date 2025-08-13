@@ -4,15 +4,15 @@
 
 <div class="relative isolate px-6 pt-14 lg:px-8">
 	<div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-		<div class="text-center animate-slide-up">
-			<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+		<div class="text-center">
+			<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl animate-fade-in" style="animation-duration: 1.2s;">
 				Production-Ready
 				<span class="text-shugur-500 font-spartan"> Nostr Relay</span>
 			</h1>
-			<p class="mt-6 text-lg leading-8 text-gray-600">
+			<p class="mt-6 text-lg leading-8 text-gray-600 animate-fade-in animate-slide-up" style="animation-duration: 1.5s;">
 				Deploy High-Performance, Scalable Nostr Relay with enterprise-grade reliability in 10 minutes.
 			</p>
-			<div class="mt-10 flex items-center justify-center gap-x-6">
+			<div class="mt-10 flex items-center justify-center gap-x-6 animate-fade-in animate-slide-up" style="animation-duration: 1.8s;">
 				<a
 					href="/#installation"
 					class="rounded-md bg-shugur-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-shugur-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-shugur-600 transition-colors duration-200"
