@@ -21,10 +21,10 @@
 			subtitle: 'Production-ready, high-availability multi-node setup',
 			command: 'curl -fsSL https://github.com/Shugur-Network/relay/raw/main/scripts/install.distributed.sh | sudo bash',
 			features: [
-				'Multi-node cluster',
-				'High availability',
-				'Load balancing',
-				'Automatic failover',
+				'Multi-node relay cluster',
+				'High availability with failover',
+				'Load balancing across nodes',
+				'Single connection endpoint',
 			],
 		},
 	];
@@ -64,7 +64,7 @@
 			</p>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
 				Choose your deployment strategy and get started with a single command. 
-				Both options include automated setup and production-ready configurations.
+				Both options include automated setup and production-ready configurations with distributed relay architecture.
 			</p>
 		</div>
 

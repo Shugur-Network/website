@@ -212,10 +212,11 @@
 			</div>
 			
 			<div class="mt-16 rounded-lg bg-shugur-50 p-8 border border-shugur-200">
-				<h3 class="text-xl font-semibold text-shugur-900">Shugur Relay: Enterprise-Grade Nostr Infrastructure</h3>
+				<h3 class="text-xl font-semibold text-shugur-900">Shugur Relay: Distributed High-Availability Nostr Infrastructure</h3>
 				<p class="mt-4 text-shugur-800">
-					Shugur Relay is built specifically for production environments, offering high-performance Nostr 
-					relay infrastructure with enterprise features like monitoring, analytics, and managed scaling. 
+					Shugur Relay is built specifically for production environments, offering high-performance distributed 
+					relay infrastructure with automatic failover and data redundancy. Connect to a single endpoint and 
+					get access to the entire distributed network - no more managing multiple relay connections. 
 					Deploy your own censorship-resistant social network infrastructure in minutes, not months.
 				</p>
 				<div class="mt-6">
@@ -225,6 +226,45 @@
 					>
 						Get Started with Shugur Relay
 					</a>
+				</div>
+			</div>
+
+			<div class="mt-16 rounded-lg bg-blue-50 p-8 border border-blue-200">
+				<h3 class="text-xl font-semibold text-blue-900">Why Choose Shugur's Distributed Architecture?</h3>
+				<p class="mt-4 text-blue-800">
+					Unlike traditional multi-relay setups that require complex client-side management, Shugur provides a 
+					distributed relay cluster that eliminates single points of failure while maintaining simplicity for developers.
+				</p>
+				
+				<div class="mt-6 grid gap-6 md:grid-cols-2">
+					<div class="rounded-lg bg-white p-4 border border-blue-200">
+						<h4 class="font-semibold text-blue-900 mb-2">Traditional Multi-Relay Setup</h4>
+						<ul class="text-sm text-blue-800 space-y-1">
+							<li>• Client manages multiple connections manually</li>
+							<li>• Complex failover handling in application code</li>
+							<li>• Data inconsistency between different relays</li>
+							<li>• Increased development and maintenance complexity</li>
+						</ul>
+					</div>
+					
+					<div class="rounded-lg bg-white p-4 border border-blue-200">
+						<h4 class="font-semibold text-blue-900 mb-2">Shugur Distributed Cluster</h4>
+						<ul class="text-sm text-blue-800 space-y-1">
+							<li>• Single connection point for all clients</li>
+							<li>• Transparent automatic failover and load balancing</li>
+							<li>• Real-time data synchronization across nodes</li>
+							<li>• Simple client implementation and maintenance</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="mt-6 p-4 bg-blue-100 rounded-lg">
+					<p class="text-sm text-blue-900">
+						<strong>Key Benefit:</strong> The Shugur distributed relay architecture means you no longer need to implement 
+						complex multi-relay management in your applications. Connect to a single endpoint and get automatic 
+						high availability, load distribution, and data redundancy - all transparent to your client code while 
+						ensuring your users can always access their data.
+					</p>
 				</div>
 			</div>
 		</div>

@@ -7,15 +7,15 @@
 
 <svelte:head>
   <title>Shugur Relay - Production-Ready Nostr Relay | Enterprise-Grade Performance</title>
-  <meta name="description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes. Built with Go and CockroachDB for maximum performance and fault tolerance." />
-  <meta name="keywords" content="nostr relay, nostr, decentralized, relay, go, cockroachdb, enterprise, performance, scalability, nostr protocol, nostr implementation, nostr infrastructure" />
+  <meta name="description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
+  <meta name="keywords" content="nostr relay, nostr, decentralized, relay, go, enterprise, performance, scalability, nostr protocol, nostr implementation, nostr infrastructure, high availability, distributed relay" />
   
   <!-- Canonical URL -->
   <link rel="canonical" href="https://shugur.com" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Shugur Relay - Production-Ready Nostr Relay" />
-  <meta property="og:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes. Built with Go and CockroachDB." />
+  <meta property="og:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
   <meta property="og:url" content="https://shugur.com" />
   <meta property="og:image" content="https://shugur.com/shugur-logo-full.svg" />
   <meta property="og:image:alt" content="Shugur Relay Logo" />

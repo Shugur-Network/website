@@ -14,8 +14,8 @@
 			icon: Clock,
 		},
 		{
-			name: 'Enterprise Grade',
-			description: 'Built with CockroachDB for distributed storage, comprehensive monitoring, and enterprise security features.',
+			name: 'Distributed Relay Network',
+			description: 'Connect to a single endpoint and access the entire distributed network with automatic failover and data redundancy.',
 			icon: Shield,
 		},
 		{
@@ -44,8 +44,8 @@
 				Everything you need for production Nostr Relay
 			</p>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
-				From automated deployment to enterprise monitoring, Shugur provides battle-tested nostr relay 
-				for censorship-resistant applications.
+				From automated deployment to distributed relay networks, Shugur provides battle-tested nostr relay 
+				infrastructure with high availability and censorship resistance.
 			</p>
 		</div>
 		<div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

@@ -10,8 +10,8 @@
 				Built for scale and reliability
 			</p>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
-				Shugur Relay uses a stateless architecture with CockroachDB for distributed storage, 
-				ensuring high performance and horizontal scalability.
+				Shugur Relay uses a distributed relay architecture that eliminates single points of failure, 
+				ensuring high availability and seamless failover for your applications.
 			</p>
 		</div>
 
@@ -30,9 +30,9 @@
 				<div class="mx-auto h-12 w-12 rounded-lg bg-green-100 flex items-center justify-center shadow-sm">
 					<Database class="h-6 w-6 text-green-600" />
 				</div>
-				<h3 class="mt-4 text-lg font-semibold text-gray-900">Distributed Storage</h3>
+				<h3 class="mt-4 text-lg font-semibold text-gray-900">Distributed Relay Network</h3>
 				<p class="mt-2 text-sm text-gray-600">
-					CockroachDB provides ACID transactions, automatic sharding, and built-in replication.
+					Connect to one endpoint and access the entire distributed network with automatic failover and data redundancy.
 				</p>
 			</div>
 

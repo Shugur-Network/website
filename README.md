@@ -8,14 +8,14 @@ Official website for Shugur Relay - a production-ready Nostr relay built with Go
 
 ## 🚀 About Shugur Relay
 
-Shugur Relay is a high-performance Nostr relay designed for production environments. It enables censorship-resistant social networks with enterprise features like monitoring, analytics, and managed scaling.
+Shugur Relay is a high-performance, distributed Nostr relay designed for production environments. It enables censorship-resistant social networks with high availability, automatic failover, and simplified client management.
 
 ### Key Features
 
 - **Production-Ready**: Built for enterprise-grade reliability
 - **High Performance**: Optimized for thousands of concurrent connections
-- **Go & CockroachDB**: Robust technology stack for scalability
-- **Enterprise Features**: Monitoring, analytics, and managed scaling
+- **Distributed Architecture**: Multi-node relay cluster with automatic failover
+- **Single Connection Point**: Connect to one endpoint, access the entire distributed network
 - **Quick Deployment**: Ready in 10 minutes
 
 ## 🛠️ Technology Stack
@@ -27,6 +27,7 @@ Shugur Relay is a high-performance Nostr relay designed for production environme
 - **Fonts**: League Spartan for Shugur branding
 - **Deployment**: Netlify with automatic builds
 - **Static Generation**: Pre-rendered for optimal performance
+- **Relay Architecture**: Distributed multi-node cluster with high availability
 
 ## 📖 Documentation
 
