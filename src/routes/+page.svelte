@@ -1,6 +1,7 @@
 <script lang="ts">
   import VersionBanner from "$lib/components/VersionBanner.svelte";
   import Hero from "$lib/components/Hero.svelte";
+  import AnnouncementCarousel from "$lib/components/AnnouncementCarousel.svelte";
   import Features from "$lib/components/Features.svelte";
   import Installation from "$lib/components/Installation.svelte";
   import Architecture from "$lib/components/Architecture.svelte";
@@ -47,6 +48,7 @@
 
 <VersionBanner />
 <Hero />
+<AnnouncementCarousel />
 <Features />
 <Installation />
 <Architecture />
