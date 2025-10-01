@@ -10,10 +10,10 @@
 			subtitle: 'Perfect for development, testing, or small-scale production',
 			command: 'curl -fsSL https://github.com/Shugur-Network/relay/raw/main/scripts/install.standalone.sh | sudo bash',
 			features: [
-				'Single-node deployment',
-				'All services on one server',
-				'Automatic SSL certificates',
-				'Web interface included',
+				'Enhanced interactive setup with smart error handling',
+				'Automatic port availability checks',
+				'SSL certificates with domain validation',
+				'Complete monitoring and logging setup',
 			],
 		},
 		{
@@ -21,10 +21,10 @@
 			subtitle: 'Production-ready, high-availability multi-node setup',
 			command: 'curl -fsSL https://github.com/Shugur-Network/relay/raw/main/scripts/install.distributed.sh | sudo bash',
 			features: [
-				'Multi-node relay cluster',
-				'High availability with failover',
-				'Load balancing across nodes',
-				'Single connection endpoint',
+				'Secure multi-node cluster with TLS',
+				'Real-time synchronization across nodes',
+				'Automated failover and load balancing',
+				'Certificate management and external connectivity testing',
 			],
 		},
 	];
@@ -64,7 +64,7 @@
 			</p>
 			<p class="mt-6 text-lg leading-8 text-gray-600">
 				Choose your deployment strategy and get started with a single command. 
-				Both options include automated setup and production-ready configurations with distributed relay architecture.
+				Enhanced installation scripts include interactive setup modes, comprehensive error handling, and automated health checks.
 			</p>
 		</div>
 

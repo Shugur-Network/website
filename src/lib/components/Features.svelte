@@ -9,28 +9,28 @@
 
 	const features = [
 		{
-			name: '10-Minute Setup',
-			description: 'Automated installation scripts handle everything from Docker setup to SSL certificates. Production-ready in minutes.',
+			name: 'Quick Setup',
+			description: 'Enhanced automated installation scripts with interactive modes, error handling, and port availability checks. Production-ready in minutes.',
 			icon: Clock,
 		},
 		{
-			name: 'Distributed Relay Network',
-			description: 'Connect to a single endpoint and access the entire distributed network with automatic failover and data redundancy.',
+			name: 'Distributed Network',
+			description: 'Connect to a single endpoint and access the entire distributed network with real-time synchronization, automatic failover and data redundancy.',
 			icon: Shield,
 		},
 		{
-			name: '20+ NIPs Supported',
-			description: 'Maximum compatibility with Nostr clients through comprehensive protocol implementation and regular updates.',
+			name: 'Universal Compatibility',
+			description: 'Works with all major Nostr clients through comprehensive protocol implementation, from basic messaging to advanced financial features.',
 			icon: Cpu,
 		},
 		{
-			name: 'Multi-Platform',
-			description: 'Deploy on Docker, bare metal, or cloud platforms. Supports Linux, macOS, and Windows environments.',
+			name: 'Enterprise Ready',
+			description: 'Real-time metrics, enhanced event processing, cross-node synchronization, and configurable limits for production environments.',
 			icon: Rocket,
 		},
 		{
 			name: 'Complete Documentation',
-			description: 'Comprehensive guides, API documentation, troubleshooting, and configuration references included.',
+			description: 'Comprehensive guides, API documentation, troubleshooting, and configuration references with detailed setup instructions.',
 			icon: FileText,
 		},
 	];

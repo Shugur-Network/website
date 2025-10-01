@@ -1,4 +1,5 @@
 <script lang="ts">
+  import VersionBanner from "$lib/components/VersionBanner.svelte";
   import Hero from "$lib/components/Hero.svelte";
   import Features from "$lib/components/Features.svelte";
   import Installation from "$lib/components/Installation.svelte";
@@ -6,16 +7,16 @@
 </script>
 
 <svelte:head>
-  <title>Shugur Relay - Production-Ready Nostr Relay | Enterprise-Grade Performance</title>
-  <meta name="description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
-  <meta name="keywords" content="nostr relay, nostr, decentralized, relay, go, enterprise, performance, scalability, nostr protocol, nostr implementation, nostr infrastructure, high availability, distributed relay" />
+  <title>Shugur Relay - Production-Ready Nostr Relay | Universal Compatibility</title>
+  <meta name="description" content="Deploy enterprise-grade Nostr relay with universal client compatibility, real-time distributed synchronization, and production-ready features." />
+  <meta name="keywords" content="nostr relay, nostr, decentralized, relay, go, enterprise, performance, scalability, nostr protocol, nostr implementation, nostr infrastructure, high availability, distributed relay, lightning zaps, digital wallets" />
   
   <!-- Canonical URL -->
   <link rel="canonical" href="https://shugur.com" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Shugur Relay - Production-Ready Nostr Relay" />
-  <meta property="og:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
+  <meta property="og:description" content="Deploy enterprise-grade Nostr relay with universal client compatibility, real-time distributed synchronization, and production-ready features." />
   <meta property="og:url" content="https://shugur.com" />
   <meta property="og:image" content="https://shugur.com/shugur-logo-full.svg" />
   <meta property="og:image:alt" content="Shugur Relay Logo" />
@@ -24,7 +25,7 @@
   
   <!-- Twitter -->
   <meta name="twitter:title" content="Shugur Relay - Production-Ready Nostr Relay" />
-  <meta name="twitter:description" content="Deploy high-performance, scalable Nostr relay with enterprise-grade reliability in 10 minutes." />
+  <meta name="twitter:description" content="Deploy enterprise-grade Nostr relay with universal client compatibility, real-time distributed synchronization, and production-ready features." />
   <meta name="twitter:image" content="https://shugur.com/shugur-logo-full.svg" />
   <meta name="twitter:image:alt" content="Shugur Relay Logo" />
   
@@ -44,6 +45,7 @@
   <meta name="revisit-after" content="7 days" />
 </svelte:head>
 
+<VersionBanner />
 <Hero />
 <Features />
 <Installation />

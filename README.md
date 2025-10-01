@@ -8,15 +8,15 @@ Official website for Shugur Relay - a production-ready Nostr relay built with Go
 
 ## 🚀 About Shugur Relay
 
-Shugur Relay is a high-performance, distributed Nostr relay designed for production environments. It enables censorship-resistant social networks with high availability, automatic failover, and simplified client management.
+Shugur Relay is a high-performance, distributed Nostr relay designed for production environments. It enables censorship-resistant social networks with high availability, automatic failover, and universal client compatibility.
 
 ### Key Features
 
-- **Production-Ready**: Built for enterprise-grade reliability
-- **High Performance**: Optimized for thousands of concurrent connections
-- **Distributed Architecture**: Multi-node relay cluster with automatic failover
-- **Single Connection Point**: Connect to one endpoint, access the entire distributed network
-- **Quick Deployment**: Ready in 10 minutes
+- **Enterprise-Ready**: Built for production environments with advanced operational features
+- **Universal Compatibility**: Works with all major Nostr clients through comprehensive protocol support
+- **Distributed Architecture**: Multi-node relay cluster with real-time synchronization and automatic failover
+- **Enhanced Operations**: Real-time monitoring, advanced logging, and intelligent configuration
+- **Quick Deployment**: Enhanced installation scripts with interactive setup and error handling
 
 ## 🛠️ Technology Stack
 
@@ -28,6 +28,17 @@ Shugur Relay is a high-performance, distributed Nostr relay designed for product
 - **Deployment**: Netlify with automatic builds
 - **Static Generation**: Pre-rendered for optimal performance
 - **Relay Architecture**: Distributed multi-node cluster with high availability
+
+## 🆕 Latest Relay Features (v1.3.3)
+
+The website showcases the latest Shugur Relay capabilities:
+
+- **Universal Client Compatibility**: Comprehensive Nostr protocol support for all major clients
+- **Real-time Monitoring**: Built-in metrics API with live performance dashboards
+- **Enhanced Event Processing**: Advanced event dispatcher with optimized throughput
+- **Intelligent Configuration**: Configurable content limits and smart resource management
+- **Advanced Logging**: Comprehensive logging system with detailed insights
+- **Enhanced Installation**: Interactive setup modes with error handling and health checks
 
 ## 📖 Documentation
 
@@ -83,9 +94,10 @@ src/
 ├── lib/
 │   └── components/           # Website-specific components
 │       ├── Navigation.svelte # Header with logo and navigation
+│       ├── VersionBanner.svelte # Dismissible version announcements
 │       ├── Hero.svelte       # Landing hero section
 │       ├── Features.svelte   # Key features showcase
-│       ├── Installation.svelte # Installation instructions
+│       ├── Installation.svelte # Enhanced installation instructions
 │       ├── Architecture.svelte # Technical overview
 │       └── Footer.svelte     # Site footer
 ├── app.html                  # HTML template with fonts
@@ -96,7 +108,7 @@ static/
 └── shugur-logo.svg          # Shugur brand logo
 ```
 
-**Note**: Reusable UI components have been moved to the [@shugur/design-system](https://github.com/Shugur-Network/design-system) package for better maintainability and cross-project usage.
+**Note**: The website focuses on business benefits and user value, with detailed technical documentation available at [docs.shugur.com](https://docs.shugur.com).
 
 ## 🎨 Design System
 
