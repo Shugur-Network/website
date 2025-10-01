@@ -10,7 +10,7 @@
 				<span class="text-shugur-500 font-spartan"> Nostr Relay</span>
 			</h1>
 			<p class="mt-6 text-lg leading-8 text-gray-600 animate-fade-in animate-slide-up" style="animation-duration: 1.5s;">
-				Deploy High-Performance, Distributed Nostr Relay with enterprise-grade reliability and automatic failover in 10 minutes.
+				Deploy high-performance, distributed Nostr relay with enterprise-grade reliability, automatic failover, and universal client compatibility.
 			</p>
 			<div class="mt-10 flex items-center justify-center gap-x-6 animate-fade-in animate-slide-up" style="animation-duration: 1.8s;">
 				<a
