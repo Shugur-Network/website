@@ -93,7 +93,7 @@
 	$: visibleAnnouncements = announcements.slice(currentSlide, currentSlide + cardsPerView);
 </script>
 
-<div class="bg-white py-16 border-t border-gray-100">
+<div class="bg-gradient-to-b from-white to-gray-50 py-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="relative">
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
