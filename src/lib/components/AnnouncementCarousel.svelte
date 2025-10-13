@@ -8,10 +8,10 @@
 
 	const announcements = [
 		{
-			id: 'relay-v133',
+			id: 'relay-v134',
 			badge: 'Latest Release',
-			title: 'Shugur Relay v1.3.3',
-			description: 'Enhanced performance, improved stability, and new enterprise features for production deployments.',
+			title: 'Shugur Relay v1.3.4',
+			description: 'Comprehensive Nostr Web Pages support - host and validate decentralized static websites on Nostr.',
 			primaryCTA: {
 				text: 'Install',
 				url: '/#installation',
@@ -19,13 +19,33 @@
 			},
 			secondaryCTA: {
 				text: 'Changelog',
-				url: 'https://github.com/Shugur-Network/relay/releases/tag/v1.3.3',
+				url: 'https://github.com/Shugur-Network/relay/releases/tag/v1.3.4',
 				icon: FileText
 			},
 			badgeColor: 'bg-blue-50 text-blue-700 border-blue-200',
 			iconBg: 'bg-blue-50',
 			iconColor: 'text-blue-600',
 			primaryBg: 'bg-blue-100 hover:bg-blue-200 text-blue-800'
+		},
+		{
+			id: 'nostr-web-pages',
+			badge: 'New Innovation',
+			title: 'Nostr Web Pages NIP',
+			description: 'Revolutionary decentralized websites built on Nostr. Publish censorship-resistant web content.',
+			primaryCTA: {
+				text: 'Try It',
+				url: 'https://nweb.shugur.com',
+				icon: Sparkles
+			},
+			secondaryCTA: {
+				text: 'GitHub',
+				url: 'https://github.com/Shugur-Network/nostr-web',
+				icon: FileText
+			},
+			badgeColor: 'bg-purple-50 text-purple-700 border-purple-200',
+			iconBg: 'bg-purple-50',
+			iconColor: 'text-purple-600',
+			primaryBg: 'bg-purple-100 hover:bg-purple-200 text-purple-800'
 		},
 		{
 			id: 'time-capsules',
