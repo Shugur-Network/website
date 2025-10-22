@@ -10,7 +10,7 @@
 		{
 			id: 'relay-v134',
 			badge: 'Latest Release',
-			title: 'Shugur Relay v1.3.4',
+			title: 'Shugur Relay v1.3.5',
 			description: 'Comprehensive Nostr Web Pages support - host and validate decentralized static websites on Nostr.',
 			primaryCTA: {
 				text: 'Install',
@@ -19,7 +19,7 @@
 			},
 			secondaryCTA: {
 				text: 'Changelog',
-				url: 'https://github.com/Shugur-Network/relay/releases/tag/v1.3.4',
+				url: 'https://github.com/Shugur-Network/relay/releases/tag/v1.3.5',
 				icon: FileText
 			},
 			badgeColor: 'bg-blue-50 text-blue-700 border-blue-200',
@@ -39,7 +39,7 @@
 			},
 			secondaryCTA: {
 				text: 'GitHub',
-				url: 'https://github.com/Shugur-Network/nostr-web',
+				url: 'https://github.com/Shugur-Network/nw-nips',
 				icon: FileText
 			},
 			badgeColor: 'bg-purple-50 text-purple-700 border-purple-200',
